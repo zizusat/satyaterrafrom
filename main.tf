@@ -5,6 +5,6 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "oidc" {
   name     = "satyaoidc--test"
-  location = "eu-west"
+  location = "australiaeast"
 }
 #my name
