@@ -12,7 +12,7 @@ terraform {
     storage_account_name = "terraformgithubactions55"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
-    use_oidc             = true
+    use_msi              = true
     subscription_id      = "9b4f8ab9-0f32-4d9d-a63e-a9ad9e4c8eec"
     tenant_id            = "86dcea1c-1c9f-4efc-9d54-6a5ee8e48683"
   }
